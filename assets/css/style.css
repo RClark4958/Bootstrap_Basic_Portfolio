@@ -1,7 +1,7 @@
 .middle {
     background-image: url('../images/gravel.png');
     background-repeat: repeat;
-    background-size:auto;
+    background-size: auto;
 }
 
 .wrapper {
@@ -18,13 +18,13 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .rickc, .navbar h2 {
-    width: 20%;
+    width: 25%;
     height: 80px;
     background-color: #4aaaa5;
     text-align: center;
     padding-top: 5px;
     float: left;
-    margin-left: 18%;
+    margin-left: 0%;
 }
 
 .navbar h2 {
@@ -39,7 +39,7 @@ a:link, a:visited, a:hover, a:active {
     border-top: 1px solid #dddddd;
     background-color: #ffffff;
     clear: both;
-    border-bottom: 8px solid #4aaaa5;
+
 }
 
 .about {
@@ -66,7 +66,7 @@ a:link, a:visited, a:hover, a:active {
 .col-6 p {
     font-size: 20px;
     color: #777777;
-    line-height: 26px;
+    line-height: 22px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
@@ -85,11 +85,11 @@ input::placeholder {
 }
 
 .inputText {
-    width: 960px;
+    width: 450px;
 }
 
 #messageBox {
-    height: 100px;
+    height: 230px;
 }
 
 #submitButton {
@@ -101,7 +101,8 @@ input::placeholder {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-.col-4 {
+.col-5 {
+    float: right;
     margin-top: 2%;
     padding: 3%;
     background-color: #ffffff;
@@ -111,6 +112,11 @@ input::placeholder {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.linkicon {
+    width: 10%;
+    height: auto;
+}
+
 .col-6 {
     background-color:#ffffff;
     font-family: 'Arial', 'Helvetica Neue', Arial, Helvetica, sans-serif;
@@ -118,10 +124,7 @@ input::placeholder {
     padding: 3%;
 }
 
-.linkicon {
-    width: 10%;
-    height: auto;
-}
+
 
 table {
     width: 500px;
@@ -130,12 +133,12 @@ table {
 
 td, th, tr {
     padding: 0px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     position: relative;
 }
 
 table div {
-    width: 189px;
+    width: 215px;
     height: 40px;
     background-color: #4aaaa5;
     position: absolute;
@@ -149,6 +152,7 @@ table div {
     font-size: 16px;
     margin: 0;
     padding-top: 5px;
+    text-align: center;
     font-weight: lighter;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
@@ -160,7 +164,7 @@ table img {
 
 .footer {
     margin: 0px;
-    height: 30px;
+    height: 50px;
     background-color: #666666;
     text-align: center;
     color: #ffffff;
